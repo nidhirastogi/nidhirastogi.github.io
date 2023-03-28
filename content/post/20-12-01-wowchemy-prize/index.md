@@ -1,14 +1,10 @@
 ---
-title: Richard Hendricks Wins First Place in the Wowchemy Prize
-date: 2020-12-01
+title: Talk at WOSO-NDSS'23 on Cyber Threat Intelligence for SOC Analysts
+date: 2022-02-27
 ---
 
-Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.
+Nidhi will be presenting a talk her research in Cyber Threat Intelligence at the Workshop on Security Operation Center Operations and Construction (WOSOC), companion to NDSS'23.
 
 <!--more-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-
-Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.
-
-Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.
+<br>Abstract: </br>Cyber threat intelligence (CTI) has been valuable to SOC analysts investigating emerging and known threats and attacks. However, the reach is still limited, and the adoption could be higher. While CTI has consistently proven to be a rich source of threat indicators and patterns collected by peer security researchers, other researchers have occasionally found them helpful. Challenges include intelligence in the CTI documented in an unstructured format, embedded in a large amount of text, making it challenging to integrate them effectively with existing threat intelligence analysis tools for internal system logs. In this paper, we detail ongoing research in threat intelligence extraction, integration, and analysis at different levels of granularity from unstructured threat analysis reports. We share ongoing challenges and provide recommendations to overcome them.

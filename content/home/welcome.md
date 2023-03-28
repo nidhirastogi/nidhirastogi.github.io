@@ -17,6 +17,5 @@ design:
   css_class:
 ---
 
-<br>
 <h4>
-At the **AI4Sec Research Lab**, we build AI models for security automation and scalability in threat intelligence. We also build explainable models for attack detection on autonomous systems to support experts who need to know what’s going on inside black box models.
+The <br>AI4Sec Research Lab<\br> focuses on System Cybersecurity and Artificial Intelligence, where we evaluate the security status of cyber-physical infrastructures and develop AI-based models that are transparent and unbiased. Our work has been supported by federal agencies, national labs, enterprises, and think tanks, aiming to enhance AI model comprehension, facilitate attack detection, and eliminate bias.

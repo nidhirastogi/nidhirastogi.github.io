@@ -1,16 +1,12 @@
 ---
-title: Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020
-date: 2020-12-02
+title: Le Nguyen's Paper on Studying Spread of Radical Online Sentiment accepted at the WebConf companion Workshop, CySoc
+date: 2023-03-08
 image:
   focal_point: 'top'
 ---
 
-Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
+Congratulations to Le Nguyen on a Paper Accept at the International Workshop on Cyber Social Threats (CySoc), a companion workshop at The Web Conference 2023.
 
 <!--more-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-
-Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.
-
-Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.
+<br>Abstract: </br>The spread of radicalization through the Internet is a growing problem. We are witnessing a rise in online hate groups, inspiring the impressionable and vulnerable population towards extreme actions in the real world. In this paper, we study the spread of hate sentiments in online forums by collecting 1,973 long comment threads (30+ comments per thread) posted on dark-web forums and containing a combination of benign posts and radical comments on the Islamic religion. This framework allows us to leverage network analysis tools to investigate sentiment propagation through a social network. By combining sentiment analysis, social network analysis, and graph theory, we aim to shed light on the propagation of hate speech in online forums and the extent to which such speech can influence individuals. The results of the \textit{intra-thread} analysis suggests that sentiment tends to cluster within comment threads, with around 75\% of connected members sharing similar sentiments. They also indicate that online forums can act as echo chambers where people with similar views reinforce each other's beliefs and opinions. On the other hand, the \textit{inter-thread} shows that 64\% of connected threads share similar sentiments, suggesting similarities between the ideologies present in different threads and that there likely is a wider network of individuals spreading hate speech across different forums. Finally, we plan to study this work with a larger dataset, which could provide further insights into the spread of hate speech in online forums and how to mitigate it.
