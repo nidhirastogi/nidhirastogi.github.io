@@ -1,5 +1,5 @@
 ---
-title: Talk at WOSO-NDSS'23 on Cyber Threat Intelligence for SOC Analysts
+title: Talk at WOSOC-NDSS'23 on Cyber Threat Intelligence for SOC Analysts
 date: 2022-02-27
 ---
 

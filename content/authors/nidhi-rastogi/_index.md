@@ -24,17 +24,18 @@ interests:
   - Networks
   - Knowledge Graphs
   - Critical Infrastructures
-  - Terrorism
-  - Societal Impact of AI
+  - Domestic Terrorism
+  - Societal Impacts of AI
 
 education:
   courses:
-    - course: Ph.D. COMPUTER SCIENCE (2018), Thesis Advisor Dr. Jim Hendler
+    - course: Ph.D. COMPUTER SCIENCE (2018), 
+      Thesis Advisor Dr. Jim Hendler
       institution: Rensselaer Polytechnic Institute
     - course: M.S. IN COMPUTER SCIENCE
       institution: University of Cincinnati
       year: 2008
-    - course: BACHELOR OF INFORMATION TECHNOLOGY 
+    - course: B.I.T.
       institution: University of Delhi
       year: 2003
 
@@ -74,4 +75,3 @@ user_groups:
 ---
 
 Mother. Researcher. Educator. Mentor. Explorer.
-I am an Assistant Professor in the Department of Software Engineering, GCCIS at Rochester Institute of Technology, NY. I am interested in transdisciplinary work in Cybersecurity, Artificial Intelligence, Heterogeneous Networks, and Graph Analytics building systems at scale. I received my Ph.D. in Computer Science with a focus on Cybersecurity, Networked Graphs and Machine Learning from Rensselaer Polytechnic Institute, NY and M.S. from the University of Cincinnati. 
