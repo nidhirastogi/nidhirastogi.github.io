@@ -29,13 +29,12 @@ interests:
 
 education:
   courses:
-    - course: Ph.D. COMPUTER SCIENCE (2018), 
-      Thesis Advisor Dr. Jim Hendler
+    - course: Ph.D. COMPUTER SCIENCE (2018), Thesis Advisor Dr. Jim Hendler
       institution: Rensselaer Polytechnic Institute
     - course: M.S. IN COMPUTER SCIENCE
       institution: University of Cincinnati
       year: 2008
-    - course: B.I.T.
+    - course: BACHELOR OF INFORMATION TECHNOLOGY 
       institution: University of Delhi
       year: 2003
 
