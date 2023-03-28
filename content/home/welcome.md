@@ -17,5 +17,6 @@ design:
   css_class:
 ---
 
-<h4>
-The <br>AI4Sec Research Lab</br> focuses on System Cybersecurity and Artificial Intelligence, where we evaluate the security status of cyber-physical infrastructures and develop AI-based models that are transparent and unbiased. Our work has been supported by federal agencies, national labs, enterprises, and think tanks, aiming to enhance AI model comprehension, facilitate attack detection, and eliminate bias.
+<p>
+The AI4Sec Research Lab focuses on System Cybersecurity and Artificial Intelligence, where we evaluate the security status of cyber-physical infrastructures and develop AI-based models that are transparent and unbiased. Our work has been supported by federal agencies, national labs, enterprises, and think tanks, aiming to enhance AI model comprehension, facilitate attack detection, and eliminate bias.
+</p>
