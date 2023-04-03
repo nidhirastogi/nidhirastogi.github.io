@@ -17,6 +17,6 @@ design:
   css_class:
 ---
 
-<p>
-At the AI4Sec Research Lab, we use data-driven AI to protect infrastructures and people. Our transparent solutions are designed for easy understanding. We're proud to have support from federal agencies, national labs, enterprises, and think tanks.
+<p style="font-size:-1;">
+At the AI4Sec Research Lab, we use data-driven AI to protect infrastructures and people. Our AI solutions are designed for easy interpretability. We're proud to have support from federal agencies, national labs, enterprises, and think tanks.
 </p>
