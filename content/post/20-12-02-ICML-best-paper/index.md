@@ -1,8 +1,6 @@
 ---
 title: Le Nguyen's Paper on Studying Spread of Radical Online Sentiment accepted at the WebConf companion Workshop, CySoc
 date: 2023-03-08
-image:
-  focal_point: 'top'
 ---
 
 Congratulations to Le Nguyen on a Paper Accept at the International Workshop on Cyber Social Threats (CySoc), a companion workshop at The Web Conference 2023.
