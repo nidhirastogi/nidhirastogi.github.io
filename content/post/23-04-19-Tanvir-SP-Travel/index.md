@@ -1,8 +1,6 @@
 ---
 title: Tanvir wins IEEE Security & Privacy (SP) Symposium'23 Student Travel Grant
 date: 2023-04-19
-image:
-  focal_point: 'top'
 ---
 
 Congratulations to Tanvir on winning the travel grant, considered very competitive.
