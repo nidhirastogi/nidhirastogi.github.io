@@ -12,12 +12,11 @@ hero_media: AI4SecLOGO.png
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
-  # Add custom styles
   css_style: |
-  .hero-image img{
-    width: 300px;
-    height: auto;
-  }
+    .hero-image img {
+      width: 300px; /* Adjust the width as needed */
+      height: auto;
+    }
   css_class:
 ---
 
