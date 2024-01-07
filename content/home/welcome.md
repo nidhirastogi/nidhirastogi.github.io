@@ -15,7 +15,7 @@ design:
   css_style: |
       max-width: 200px; /* Adjust the width as needed */
       height: auto;
-      font-size: 12px
+      font-size: 20px;
   css_class:
 ---
 
