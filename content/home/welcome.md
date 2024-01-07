@@ -15,7 +15,6 @@ design:
   css_style: |
     .hero-image img {
       width: 200px;
-      font-size: 16px;
     }
   css_class:
 ---
