@@ -14,7 +14,7 @@ design:
   columns: '1'
   css_style: |
     .hero-image img {
-      max-width: 200px;
+      width: 200px;
     }
    .hero-section p {
   /* Adjust font size of the text */
