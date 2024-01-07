@@ -15,7 +15,6 @@ design:
   css_style: |
     .hero-image img {
       max-width: 200px;
-      max-height: auto;
     }
    .hero-section p {
   /* Adjust font size of the text */
