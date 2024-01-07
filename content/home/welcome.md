@@ -13,9 +13,9 @@ design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
   css_style: |
-      max-width: 200px; /* Adjust the width as needed */
+      width: 200px; /* Adjust the width as needed */
       height: auto;
-      font-size: 20px;
+      font-size: 1.25em;
   css_class:
 ---
 
