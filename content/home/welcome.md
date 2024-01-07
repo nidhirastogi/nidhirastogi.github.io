@@ -8,12 +8,12 @@ headless: true # This file represents a page section.
 weight: 10 # Order that this section will appear.
 # title: |
 #  AI4SEC
-hero_media: AI4SecLOGO.png
 design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
-  # Add custom styles
-  css_style:
+  css_style: |
+    max-width: 200px; /* Adjust the maximum width as needed */
+    /* You can also use max-height if you want to limit the height */
+    /* max-height: 150px; */
   css_class:
 ---
 
