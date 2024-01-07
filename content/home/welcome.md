@@ -14,10 +14,14 @@ design:
   columns: '1'
   css_style: |
     .hero-image img {
-      width: 20%; /* Adjust the width as needed */
+      max-width: 200px;
       max-height: auto;
-      font-size: 14px;
     }
+   .hero-section p {
+  /* Adjust font size of the text */
+    font-size: 16px;
+    }
+
   css_class:
 ---
 
