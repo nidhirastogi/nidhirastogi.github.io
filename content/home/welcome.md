@@ -14,7 +14,7 @@ design:
   columns: '1'
   css_style: |
     .hero-image img {
-       width: 300px; /* Adjust the width as needed */
+       width: 100px; /* Adjust the width as needed */
         height: auto; /* Preserve aspect ratio */
     }
   css_class:
