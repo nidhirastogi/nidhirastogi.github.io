@@ -4,7 +4,7 @@ widget: pages
 headless: true
 weight: 20
 
-title: <h3>Latest News<\h3>
+title: Latest News
 subtitle:
 
 content:
