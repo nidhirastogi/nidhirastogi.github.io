@@ -8,14 +8,14 @@ headless: true # This file represents a page section.
 weight: 10 # Order that this section will appear.
 # title: |
 #  AI4SEC
-hero_media: AI4SecLOGO.png
+hero_media: AI4SecLOGO.png, class: my-logo
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
   css_style: |
-    .hero-image img {
-       width: 100px; /* Adjust the width as needed */
-        height: auto; /* Preserve aspect ratio */
+    .my-logo {
+  width: 100px;
+  height: auto;
     }
   css_class:
 ---
