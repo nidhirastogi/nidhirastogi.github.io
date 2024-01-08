@@ -13,10 +13,9 @@ design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
   css_style: |
-    .hero-image img {
-       width: 100px; /* Adjust the width as needed */
-        height: auto; /* Preserve aspect ratio */
-    }
+      max-width: 200px; /* Adjust the width as needed */
+      height: auto;
+      font-size: 12px;
   css_class:
 ---
 
