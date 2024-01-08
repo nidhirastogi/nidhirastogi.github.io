@@ -15,7 +15,9 @@ design:
   css_style: |
       width: 100%; /* Adjust the width as needed */
       height: auto;
-  css_class:
+  css_class: |
+    width: 50%; /* Adjust the width as needed */
+    height: auto;
 ---
 
 <p style="font-size:75%;">
