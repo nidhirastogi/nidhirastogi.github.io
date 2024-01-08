@@ -6,7 +6,7 @@ title: Nidhi Rastogi
 superuser: true
 
 # Role/position
-role: Assistant Professor, Software Engineering
+role: Assistant Professor, GCCIS, RIT
 
 # Organizations/Affiliations
 organizations:
@@ -17,15 +17,16 @@ organizations:
 bio: My research interests in transdisciplinary work in Cybersecurity, Artificial Intelligence, Heterogeneous Networks, and Graph Analytics building systems at scale.
 
 interests:
-  - Cyber Threat Intelligence
-  - Machine Learning (Neural Networks & Reinforcement Learning)
+  - Threat Intelligence
+  - Explainable AI
   - Data Science
   - Graph Analytics
   - Networks
   - Knowledge Graphs
   - Critical Infrastructures
-  - Domestic Terrorism
-  - Societal Impacts of AI
+  - National Security
+
+
 
 education:
   courses:
