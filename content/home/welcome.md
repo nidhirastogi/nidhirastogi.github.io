@@ -13,7 +13,7 @@ design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
   css_style: |
-      width: 200px; /* Adjust the width as needed */
+      width: 100%; /* Adjust the width as needed */
       height: auto;
   css_class:
 ---
