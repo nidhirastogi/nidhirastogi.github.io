@@ -14,7 +14,7 @@ design:
   columns: '1'
   css_style: |
       max-width: 200px; /* Adjust the width as needed */
-      font-size: 12px;
+      height: auto;
   css_class:
 ---
 
