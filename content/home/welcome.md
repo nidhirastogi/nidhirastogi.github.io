@@ -13,11 +13,11 @@ design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: '1'
   css_style: |
-      max-width: 200px; /* Adjust the width as needed */
+      width: 200px; /* Adjust the width as needed */
       height: auto;
   css_class:
 ---
 
-<p style="font-size: 100%;">
+<p style="font-size: 50%;">
 At the AI4Sec Research Lab, we use data-driven AI to protect infrastructures and people. Our AI solutions are designed for easy interpretability. We're proud to have support from federal agencies, national labs, enterprises, and think tanks.
 </p>
