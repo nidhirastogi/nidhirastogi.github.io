@@ -15,13 +15,8 @@ design:
   css_style: |
       width: 100%; /* Adjust the width as needed */
       height: auto;
-  css_class: 'AI4SecLOGO'
+  css_class:
 ---
-
-.AI4SecLOGO img {
-    width: 50%; /* Adjust the width as needed */
-    height: auto;
-}
 <p style="font-size:75%;">
 At the AI4Sec Research Lab, we use data-driven AI to protect infrastructures and people. Our AI solutions are designed for easy interpretability. We're proud to have support from federal agencies, national labs, enterprises, and think tanks.
 </p>
