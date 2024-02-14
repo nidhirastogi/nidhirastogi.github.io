@@ -18,6 +18,8 @@ design:
   css_class:
 ---
 <p style="font-size:60%;">
-The AI4Sec Research Lab, is led by Dr. Nidhi Rastogi, Assistant Professor at the Golisano College of Computing and Information Sciences (GCCIS), Rochester Institute of Technology (RIT) since Fall'2021. 
-In the AI$Sec Lab, we are committed to use data-driven AI to protect infrastructures and people. Our AI solutions are designed for easy interpretability. We're proud to have support from federal agencies, national labs, enterprises, and think tanks.
+The AI4Sec Research Lab is led by Dr. Nidhi Rastogi, Assistant Professor at the Golisano College of Computing and Information Sciences (GCCIS) at the Rochester Institute of Technology (RIT).
+</p>
+<p style="font-size:60%;">
+In the AI4Sec Lab, we are committed to use data-driven AI to protect infrastructures and people. Our AI solutions are designed for easy interpretability. Watch this space for all the hard work, tireless research, and well-deserved accomplishments and learning from the lab members and affiliates. We're proud to have support from federal agencies, national labs, enterprises, and think tanks.
 </p>
