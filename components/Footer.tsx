@@ -1,20 +1,25 @@
 import Link from 'next/link';
+import AI4SECLogo from './AI4SECLogo';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-100 dark:bg-gray-800 mt-20">
+    <footer className="bg-gray-100 dark:bg-gray-800 mt-20 transition-colors">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* About Section */}
+          {/* About Section with AI4SEC Logo */}
           <div className="col-span-1 md:col-span-2">
+            <div className="mb-4">
+              <AI4SECLogo width={50} height={50} />
+            </div>
             <h3 className="text-lg font-bold text-navy-700 dark:text-navy-300 mb-4">
               Nidhi Rastogi, PhD
             </h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Assistant Professor<br />
               Rochester Institute of Technology<br />
+              Leading the AI4SEC Lab<br />
               Cyberthreat Intelligence • Explainable AI • Security Research
             </p>
             <div className="flex space-x-4">
@@ -22,7 +27,7 @@ export default function Footer() {
                 href="https://www.linkedin.com/in/rastoginidhi"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400"
+                className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400 transition-colors"
                 aria-label="LinkedIn"
               >
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -33,7 +38,7 @@ export default function Footer() {
                 href="https://github.com/aiforsec"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400"
+                className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400 transition-colors"
                 aria-label="GitHub"
               >
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -42,7 +47,7 @@ export default function Footer() {
               </a>
               <a
                 href="mailto:nxrvse@rit.edu"
-                className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400"
+                className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400 transition-colors"
                 aria-label="Email"
               >
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -59,23 +64,23 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/research" className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400">
-                  Research
+                <Link href="/research-publications" className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400 transition-colors">
+                  Research & Publications
                 </Link>
               </li>
               <li>
-                <Link href="/publications" className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400">
-                  Publications
+                <Link href="/teaching" className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400 transition-colors">
+                  Teaching
                 </Link>
               </li>
               <li>
-                <Link href="/team" className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400">
-                  Team
+                <Link href="/team" className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400 transition-colors">
+                  Team & Collaborations
                 </Link>
               </li>
               <li>
-                <Link href="/resources" className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400">
-                  Resources
+                <Link href="/impact" className="text-gray-600 dark:text-gray-300 hover:text-navy-600 dark:hover:text-navy-400 transition-colors">
+                  Impact & Grants
                 </Link>
               </li>
             </ul>
@@ -90,7 +95,7 @@ export default function Footer() {
               <li>Rochester Institute of Technology</li>
               <li>Rochester, NY</li>
               <li>
-                <a href="mailto:nxrvse@rit.edu" className="hover:text-navy-600 dark:hover:text-navy-400">
+                <a href="mailto:nxrvse@rit.edu" className="hover:text-navy-600 dark:hover:text-navy-400 transition-colors">
                   nxrvse@rit.edu
                 </a>
               </li>
@@ -99,7 +104,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-200 dark:border-gray-700 mt-8 pt-8 text-center text-gray-600 dark:text-gray-400">
-          <p>&copy; {currentYear} Nidhi Rastogi. All rights reserved.</p>
+          <p>&copy; {currentYear} Nidhi Rastogi - AI4SEC Lab. All rights reserved.</p>
         </div>
       </div>
     </footer>

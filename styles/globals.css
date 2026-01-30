@@ -6,17 +6,46 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
+    
+    /* Light mode colors */
+    --color-bg-primary: 255 255 255;
+    --color-bg-secondary: 249 250 251;
+    --color-text-primary: 31 41 55;
+    --color-text-secondary: 75 85 99;
   }
 
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
+    
+    /* Dark mode colors */
+    --color-bg-primary: 17 24 39;
+    --color-bg-secondary: 31 41 55;
+    --color-text-primary: 243 244 246;
+    --color-text-secondary: 209 213 219;
   }
 }
 
 @layer base {
+  * {
+    @apply border-gray-200 dark:border-gray-700;
+  }
+  
   body {
-    @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+    @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-200;
+  }
+  
+  /* Ensure minimum font size for mobile */
+  html {
+    font-size: 16px;
+  }
+  
+  /* Touch-friendly sizing */
+  @media (max-width: 640px) {
+    button, a {
+      min-height: 44px;
+      min-width: 44px;
+    }
   }
 }
 
@@ -26,14 +55,66 @@
   }
   
   .card {
-    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300;
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-300;
   }
   
   .btn-primary {
-    @apply bg-navy-600 hover:bg-navy-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors duration-200;
+    @apply bg-navy-600 hover:bg-navy-700 dark:bg-navy-500 dark:hover:bg-navy-600 text-white font-semibold py-2 px-6 rounded-lg transition-colors duration-200 min-h-[44px] flex items-center justify-center;
   }
   
   .btn-secondary {
-    @apply bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-6 rounded-lg transition-colors duration-200;
+    @apply bg-teal-500 hover:bg-teal-600 dark:bg-teal-600 dark:hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors duration-200 min-h-[44px] flex items-center justify-center;
+  }
+  
+  /* Smooth theme transitions */
+  * {
+    @apply transition-colors duration-200;
+  }
+  
+  /* Responsive text sizing */
+  h1 {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-2xl sm:text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-xl sm:text-2xl;
+  }
+  
+  /* Responsive spacing */
+  .section-padding {
+    @apply py-8 sm:py-12 md:py-16;
+  }
+}
+
+/* Code blocks dark mode support */
+@layer base {
+  pre, code {
+    @apply bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100;
+  }
+  
+  pre code {
+    @apply bg-transparent;
+  }
+}
+
+/* Image adaptations for dark mode */
+@layer base {
+  .dark img {
+    @apply opacity-90;
+  }
+  
+  .dark img:hover {
+    @apply opacity-100;
+  }
+}
+
+/* Focus visible for accessibility */
+@layer base {
+  *:focus-visible {
+    @apply outline-2 outline-offset-2 outline-navy-500 dark:outline-navy-400;
   }
 }
