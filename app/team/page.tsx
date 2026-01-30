@@ -208,12 +208,6 @@ export default function Team() {
             </Card>
 
             <Card>
-              <h3 className="text-lg font-bold text-navy-700 dark:text-navy-300 mb-2">Morgan Reece</h3>
-              <p className="text-sm text-gray-600 dark:text-gray-400">Mississippi State University</p>
-              <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">08/22-Present</p>
-            </Card>
-
-            <Card>
               <h3 className="text-lg font-bold text-navy-700 dark:text-navy-300 mb-2">PhD Committee</h3>
               <p className="text-sm text-gray-600 dark:text-gray-400">George Mason University</p>
               <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">2024-Present</p>
@@ -244,14 +238,14 @@ export default function Team() {
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Troy High School, Fullerton, CA | CyberVSR Scholar, RIT
                   </p>
-                  <p className="text-xs text-gray-500 dark:text-gray-500">Jun'23-Present</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-500">06/23-Present</p>
                 </div>
                 <div>
                   <p className="font-semibold text-gray-700 dark:text-gray-300">Krishna Narayanasamy</p>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
                     Archbishop Mitty High School, San Jose, CA
                   </p>
-                  <p className="text-xs text-gray-500 dark:text-gray-500">Jun'23-Aug'23</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-500">06/23-08/23</p>
                 </div>
               </div>
             </Card>
