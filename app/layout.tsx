@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   description: 'Assistant Professor at Rochester Institute of Technology leading AI4SEC Lab. Specializing in Cyberthreat Intelligence, Explainable AI, and Security Research',
   keywords: ['Nidhi Rastogi', 'AI4SEC', 'AI Security', 'Cyberthreat Intelligence', 'Explainable AI', 'RIT', 'Rochester Institute of Technology'],
   authors: [{ name: 'Nidhi Rastogi' }],
+  icons: {
+    icon: '/favicon.svg',
+  },
   openGraph: {
     title: 'Nidhi Rastogi - AI4SEC Lab | AI Security Researcher',
     description: 'Assistant Professor at RIT leading AI4SEC Lab, specializing in Cyberthreat Intelligence and Explainable AI',

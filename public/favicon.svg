@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield background -->
+  <path d="M50 5 L85 20 L85 50 C85 70 70 85 50 95 C30 85 15 70 15 50 L15 20 Z" fill="#303f9f"/>
+  <!-- Inner shield -->
+  <path d="M50 15 L75 25 L75 50 C75 65 62 77 50 85 C38 77 25 65 25 50 L25 25 Z" fill="#3949ab"/>
+  <!-- Circuit pins - top -->
+  <circle cx="50" cy="35" r="3" fill="#26a69a"/>
+  <circle cx="40" cy="45" r="3" fill="#26a69a"/>
+  <circle cx="60" cy="45" r="3" fill="#26a69a"/>
+  <!-- Circuit lines -->
+  <line x1="50" y1="35" x2="40" y2="45" stroke="#4db6ac" stroke-width="2"/>
+  <line x1="50" y1="35" x2="60" y2="45" stroke="#4db6ac" stroke-width="2"/>
+  <line x1="40" y1="45" x2="40" y2="60" stroke="#4db6ac" stroke-width="2"/>
+  <line x1="60" y1="45" x2="60" y2="60" stroke="#4db6ac" stroke-width="2"/>
+  <!-- Circuit pins - bottom -->
+  <circle cx="40" cy="60" r="3" fill="#26a69a"/>
+  <circle cx="60" cy="60" r="3" fill="#26a69a"/>
+  <circle cx="50" cy="68" r="3" fill="#26a69a"/>
+  <!-- Connect to center -->
+  <line x1="40" y1="60" x2="50" y2="68" stroke="#4db6ac" stroke-width="2"/>
+  <line x1="60" y1="60" x2="50" y2="68" stroke="#4db6ac" stroke-width="2"/>
+</svg>
