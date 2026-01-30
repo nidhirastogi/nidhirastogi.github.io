@@ -13,8 +13,7 @@ export default function Home() {
               Assistant Professor, Rochester Institute of Technology
             </p>
             <p className="text-lg text-gray-200 mb-8">
-              Leading research in Cyberthreat Intelligence, Explainable AI, and Security • 
-              60+ Publications • $395k+ in Active Research Grants • NeurIPS 2024 Spotlight Paper
+              AI Security | Cyberthreat Intelligence | Explainable AI
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/research" className="btn-primary">
@@ -112,56 +111,6 @@ export default function Home() {
               </h3>
               <p className="text-gray-600 dark:text-gray-300">
                 Building knowledge graphs for security with 52K triples and 30k entities
-              </p>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* Recent News */}
-      <section className="py-16 bg-gray-50 dark:bg-gray-800">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center mb-12">
-            <h2 className="text-3xl font-bold">Recent News</h2>
-            <Link href="/news" className="text-navy-600 dark:text-navy-400 hover:underline">
-              View All →
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card>
-              <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">February 2024</div>
-              <h3 className="text-xl font-bold text-navy-700 dark:text-navy-300 mb-2">
-                Best Poster & Presentation Award at NDSS 2024
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Our work on cyberthreat intelligence received the best poster award at NDSS 2024
-              </p>
-            </Card>
-            <Card>
-              <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">October 2024</div>
-              <h3 className="text-xl font-bold text-navy-700 dark:text-navy-300 mb-2">
-                CTIBench Published at NeurIPS 2024 (Spotlight)
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Top 2% of accepted papers - Industry adoption by Google, Microsoft, Cisco, TrendMicro
-              </p>
-            </Card>
-            <Card>
-              <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">July 2023</div>
-              <h3 className="text-xl font-bold text-navy-700 dark:text-navy-300 mb-2">
-                Aspen Institute AI Fellow
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Selected as Aspen Tech Policy Hub Fellow focusing on AI policy and governance
-              </p>
-            </Card>
-            <Card>
-              <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">April 2023</div>
-              <h3 className="text-xl font-bold text-navy-700 dark:text-navy-300 mb-2">
-                Best Paper Award at UPSTAT Conference
-              </h3>
-              <p className="text-gray-600 dark:text-gray-300">
-                Recognition for outstanding research contribution at UPSTAT 2023
               </p>
             </Card>
           </div>
