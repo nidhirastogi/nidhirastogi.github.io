@@ -1,5 +1,6 @@
 import Hero from '@/components/Hero';
 import Card from '@/components/Card';
+import AI4SECLogo from '@/components/AI4SECLogo';
 
 export default function About() {
   return (
@@ -9,6 +10,19 @@ export default function About() {
         subtitle="Assistant Professor at Rochester Institute of Technology"
         description="Leading researcher in Cyberthreat Intelligence, Explainable AI, and Security"
       />
+
+      {/* AI4SEC Branding Section */}
+      <section className="py-8 bg-gradient-to-r from-navy-50 to-teal-50 dark:from-gray-800 dark:to-gray-900">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-center">
+            <AI4SECLogo width={60} height={60} />
+            <div className="ml-4">
+              <h2 className="text-2xl font-bold text-navy-700 dark:text-navy-300">AI4SEC Lab</h2>
+              <p className="text-gray-600 dark:text-gray-300">Artificial Intelligence for Security Research</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -85,7 +99,7 @@ export default function About() {
           <h2 className="text-3xl font-bold text-center mb-12">Education</h2>
           <div className="max-w-4xl mx-auto space-y-6">
             <Card>
-              <div className="flex justify-between items-start mb-2">
+              <div className="flex flex-col sm:flex-row justify-between items-start mb-2">
                 <div>
                   <h3 className="text-xl font-bold text-navy-700 dark:text-navy-300">
                     Ph.D. in Computer Science
@@ -95,20 +109,20 @@ export default function About() {
                     Advisor: Dr. James A. Hendler
                   </p>
                 </div>
-                <div className="text-right text-gray-600 dark:text-gray-400">
+                <div className="text-left sm:text-right text-gray-600 dark:text-gray-400 mt-2 sm:mt-0">
                   Jan 2013 - Mar 2018
                 </div>
               </div>
             </Card>
             <Card>
-              <div className="flex justify-between items-start mb-2">
+              <div className="flex flex-col sm:flex-row justify-between items-start mb-2">
                 <div>
                   <h3 className="text-xl font-bold text-navy-700 dark:text-navy-300">
                     M.S. in Computer Science
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">University of Cincinnati</p>
                 </div>
-                <div className="text-right text-gray-600 dark:text-gray-400">
+                <div className="text-left sm:text-right text-gray-600 dark:text-gray-400 mt-2 sm:mt-0">
                   Sep 2006 - Dec 2008
                 </div>
               </div>
@@ -123,53 +137,53 @@ export default function About() {
           <h2 className="text-3xl font-bold text-center mb-12">Professional Experience</h2>
           <div className="max-w-4xl mx-auto space-y-6">
             <Card>
-              <div className="flex justify-between items-start mb-2">
+              <div className="flex flex-col sm:flex-row justify-between items-start mb-2">
                 <div>
                   <h3 className="text-xl font-bold text-navy-700 dark:text-navy-300">
                     Assistant Professor
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">Rochester Institute of Technology</p>
                 </div>
-                <div className="text-right text-gray-600 dark:text-gray-400">
+                <div className="text-left sm:text-right text-gray-600 dark:text-gray-400 mt-2 sm:mt-0">
                   Aug 2021 - Present
                 </div>
               </div>
             </Card>
             <Card>
-              <div className="flex justify-between items-start mb-2">
+              <div className="flex flex-col sm:flex-row justify-between items-start mb-2">
                 <div>
                   <h3 className="text-xl font-bold text-navy-700 dark:text-navy-300">
                     Affiliate Faculty
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">ESL Global Cybersecurity Institute, RIT</p>
                 </div>
-                <div className="text-right text-gray-600 dark:text-gray-400">
+                <div className="text-left sm:text-right text-gray-600 dark:text-gray-400 mt-2 sm:mt-0">
                   Present
                 </div>
               </div>
             </Card>
             <Card>
-              <div className="flex justify-between items-start mb-2">
+              <div className="flex flex-col sm:flex-row justify-between items-start mb-2">
                 <div>
                   <h3 className="text-xl font-bold text-navy-700 dark:text-navy-300">
                     Research Scientist
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">Rensselaer Polytechnic Institute</p>
                 </div>
-                <div className="text-right text-gray-600 dark:text-gray-400">
+                <div className="text-left sm:text-right text-gray-600 dark:text-gray-400 mt-2 sm:mt-0">
                   Aug 2019 - Aug 2021
                 </div>
               </div>
             </Card>
             <Card>
-              <div className="flex justify-between items-start mb-2">
+              <div className="flex flex-col sm:flex-row justify-between items-start mb-2">
                 <div>
                   <h3 className="text-xl font-bold text-navy-700 dark:text-navy-300">
                     Postdoctoral Associate
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400">Rensselaer Polytechnic Institute</p>
                 </div>
-                <div className="text-right text-gray-600 dark:text-gray-400">
+                <div className="text-left sm:text-right text-gray-600 dark:text-gray-400 mt-2 sm:mt-0">
                   Dec 2018 - Jul 2019
                 </div>
               </div>
@@ -192,14 +206,10 @@ export default function About() {
                   </a>
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">Phone</h3>
-                  <p>513-417-7449</p>
-                </div>
-                <div>
                   <h3 className="font-semibold mb-2">Office</h3>
                   <p>Rochester Institute of Technology<br />Rochester, NY</p>
                 </div>
-                <div>
+                <div className="md:col-span-2">
                   <h3 className="font-semibold mb-2">Social</h3>
                   <div className="space-y-1">
                     <a href="https://www.linkedin.com/in/rastoginidhi" target="_blank" rel="noopener noreferrer" className="block hover:underline">
